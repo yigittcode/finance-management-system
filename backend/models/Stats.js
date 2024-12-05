@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const statsSchema = new mongoose.Schema({
   totalUsers: {
@@ -19,4 +19,4 @@ const statsSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
-module.exports = mongoose.model('Stats', statsSchema); 
+export default mongoose.model('Stats', statsSchema);
