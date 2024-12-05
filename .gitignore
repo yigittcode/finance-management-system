@@ -1,0 +1,6 @@
+# Backend dizinindeki yoksayılacak dosyalar
+/backend/node_modules
+/backend/.env
+
+# Frontend dizinindeki yoksayılacak dosyalar
+/frontend/node_modules
