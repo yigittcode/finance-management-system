@@ -1,0 +1,61 @@
+.logo {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.logo h1 {
+  color: #32c6e0;
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding: 0.8rem 1rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo h1:hover {
+  color: #2ba8bd;
+  background-color: rgba(50, 198, 224, 0.1);
+  border-radius: 12px;
+  transform: scale(1.02);
+}
+
+
+nav {
+  background-color: #beb497;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0.3rem 0.5rem;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+li a:hover {
+  background-color: #32c6e0;
+  border-radius: 10px;
+}
